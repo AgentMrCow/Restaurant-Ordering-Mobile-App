@@ -102,13 +102,3 @@ For the backend service to handle user authentication and order processing:
    ```sh
    uvicorn main:app --reload
    ```
-
-## Usage
-
-Once the app is running, you can:
-
-- **Register**: Create a new account using your email.
-- **Login**: Access the system by entering your credentials.
-- **Browse Menu**: Explore the variety of dishes available.
-- **Add to Cart**: Select the quantity and add items to your cart.
-- **Checkout**: Review your order and proceed to purchase.
