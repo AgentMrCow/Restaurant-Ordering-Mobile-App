@@ -2,6 +2,41 @@
 
 Welcome to the IERG3842 Mobile App, a streamlined online ordering system designed specifically for a delightful Chinese cuisine experience. Developed by Niu Ka Ngai, this app allows customers to easily register, log in, and place orders for their favorite Chinese dishes, all from the comfort of their smartphone.
 
+Here's an overview of the technologies and frameworks used to build this application, providing a robust and user-friendly experience:
+
+### Core Technologies of the IERG3842 Mobile App
+
+#### 1. Mobile Application Frontend
+
+- **React Native**: Utilized for developing the cross-platform mobile app which allows it to run on both Android and iOS devices. React Native is a popular choice for mobile development due to its efficiency and the rich ecosystem of plugins and community support.
+- **Expo**: A framework and platform for universal React applications. It is used to accelerate the development process by simplifying the setup and deployment of the React Native app. Expo also handles a lot of configuration automatically, making it easier to manage multimedia, handle notifications, and compile the app.
+- **React Navigation**: This library helps with navigating between different screens within the app smoothly and efficiently.
+- **AsyncStorage from React Native**: Used for local storage of user data like tokens and session states across app restarts and reloads.
+
+#### 2. Backend API
+
+- **FastAPI**: A modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. The key features that make FastAPI a great choice for this kind of project include its speed, ease of use, and robustness.
+- **Uvicorn**: An ASGI server for Python, used to run the FastAPI application. It helps in handling asynchronous requests and makes the application scalable and fast.
+
+#### 3. Database and Authentication
+
+- **MongoDB Atlas**: A cloud database service used for storing all persistent data including user credentials, menu items, and order details. It offers high performance, scalability, and flexibility, making it a suitable choice for applications needing to handle large volumes of data.
+- **JWT (JSON Web Tokens)**: Used for securing the backend communication and effectively managing user authentication and sessions. It ensures that each request to the server is authenticated and authorized properly.
+
+#### 4. Additional Python Packages
+
+- **Pymongo**: A Python distribution containing tools for working with MongoDB, and is the recommended way to work with MongoDB from Python.
+- **Passlib & python-jose**: These libraries are used for password hashing and JWT operations respectively, which are critical for secure authentication mechanisms.
+- **Python-dotenv**: Used for loading environment variables from a `.env` file which is essential for managing configuration options and secret keys securely outside of the main codebase.
+
+### Configuration and Integration
+
+- The mobile app makes requests to the FastAPI backend, handling tasks such as user authentication (login/register), menu browsing, and order processing.
+- Data is stored and retrieved from MongoDB Atlas, ensuring that all interactions are persistent and stateful.
+- Security is a top priority with hashed passwords stored in the database and JWT used for session management to prevent unauthorized access.
+
+This architecture not only ensures that the application is robust, secure, and scalable but also provides a seamless user experience whether on a web browser or on a mobile device. The use of modern frameworks and technologies like React Native, FastAPI, and MongoDB Atlas highlights the application's commitment to using cutting-edge technology to improve user satisfaction and operational efficiency.
+
 ## Features:
 
 - **User Authentication**: Secure login and registration system.
@@ -77,25 +112,3 @@ Once the app is running, you can:
 - **Browse Menu**: Explore the variety of dishes available.
 - **Add to Cart**: Select the quantity and add items to your cart.
 - **Checkout**: Review your order and proceed to purchase.
-
-For more information, please refer to the [Documentation](https://example.com).
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Your Name - Niu Ka Ngai - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-> Note: Replace placeholder URLs and email address with your information.
-
----
-
-This README includes all the basic setup instructions for your mobile app. Adjust it according to your specific needs and additional functionalities.
