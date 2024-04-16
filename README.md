@@ -2,8 +2,6 @@
 
 Welcome to the IERG3842 Mobile App, a streamlined online ordering system designed specifically for a delightful Chinese cuisine experience. Developed by Niu Ka Ngai, this app allows customers to easily register, log in, and place orders for their favorite Chinese dishes, all from the comfort of their smartphone.
 
-Here's an overview of the technologies and frameworks used to build this application, providing a robust and user-friendly experience:
-
 ## App Screenshots
 
 Here are some screenshots that illustrate the features and user interface of the IERG3842 Mobile App:
@@ -39,6 +37,7 @@ After a successful transaction, users receive a confirmation of their purchase.
 The order is saved securely in MongoDB Atlas Database.
 
 ## Core Technologies of the IERG3842 Mobile App
+Here's an overview of the technologies and frameworks used to build this application, providing a robust and user-friendly experience:
 
 ### 1. Mobile Application Frontend
 
