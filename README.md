@@ -70,7 +70,7 @@ Here's an overview of the technologies and frameworks used to build this applica
 
 This architecture not only ensures that the application is robust, secure, and scalable but also provides a seamless user experience whether on a web browser or on a mobile device. The use of modern frameworks and technologies like React Native, FastAPI, and MongoDB Atlas highlights the application's commitment to using cutting-edge technology to improve user satisfaction and operational efficiency.
 
-## Features:
+## Features
 
 - **User Authentication**: Secure login and registration system.
 - **Intuitive Interface**: Simple and user-friendly interface for ordering.
