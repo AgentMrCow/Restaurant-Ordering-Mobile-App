@@ -46,7 +46,24 @@ For the backend service to handle user authentication and order processing:
    ```sh
    pip install fastapi uvicorn pymongo python-multipart python-jose passlib python-dotenv
    ```
-3. Run the FastAPI server:
+3. Add Required Variables:
+   Open the `.env` file and add the following lines:
+
+   ```plaintext
+   DATABASE_URI="your_mongodb_connection_string_here"
+   JWT_SECRET_KEY="your_secret_key_here"
+   ```
+
+   - Replace `your_mongodb_connection_string_here` with your actual MongoDB connection string.
+   - Replace `your_secret_key_here` with a strong secret key for JWT authentication.
+   
+   Example Content for `.env` File:
+
+   ```plaintext
+   DATABASE_URI="mongodb+srv://username:password@cluster0.example.mongodb.net/"
+   JWT_SECRET_KEY="thisisasecretkey"
+   ```
+4. Run the FastAPI server:
    ```sh
    uvicorn main:app --reload
    ```
