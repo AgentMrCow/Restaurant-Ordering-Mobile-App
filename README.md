@@ -15,6 +15,11 @@ Welcome to the IERG3842 Mobile App, a streamlined online ordering system designe
 
 Here are some screenshots that illustrate the features and user interface of the IERG3842 Mobile App:
 
+### ipad Screen
+![ipad Screen](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/ios.png)
+
+This app can work perfectly in both Andorid and IOS environment. For convenience, I will only demostrate other screens in Android smartphone Pixel 3a.
+
 ### Home Screen
 ![Home Screen](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/home.png)
 
