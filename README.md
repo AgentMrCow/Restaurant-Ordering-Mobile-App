@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/react-native.jpg" alt="Native logo" title="React Native - Android and IOS UI Framework" width="40" height="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg" alt="JavaScript logo" title="JavaScript - High-level, often just-in-time compiled, and multi-paradigm" width="40" height="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Python-Dark.svg" alt="JavaScript logo" title="Python - High-level, general-purpose programming language" width="40" height="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/FastAPI.svg" alt="FastAPI logo" title="FastAPI - The Python Server Framework" width="40" height="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/MongoDB.svg" alt="MongoDB logo" title="MongoDB Atlas Database - Multi-Cloud Database Service" width="40" height="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/AndroidStudio-Dark.svg" alt="Android Studio logo" title="Android Studio - Development tool" width="40" height="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Apple-Dark.svg" alt="Apple logo" title="Apple - IOS support" width="40" height="40"/>
+</p>
 # IERG3842 Mobile App - Chinese Restaurant Online Ordering System
 
 Welcome to the IERG3842 Mobile App, a streamlined online ordering system designed specifically for a delightful Chinese cuisine experience. Developed by Niu Ka Ngai, this app allows customers to easily register, log in, and place orders for their favorite Chinese dishes, all from the comfort of their smartphone.
