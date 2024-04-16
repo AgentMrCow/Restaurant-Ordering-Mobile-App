@@ -47,7 +47,7 @@ For the backend service to handle user authentication and order processing:
    pip install fastapi uvicorn pymongo python-multipart python-jose passlib python-dotenv
    ```
 3. Add Required Variables:
-   Open the `.env` file and add the following lines:
+   Create a new `.env` file and add the following lines:
 
    ```plaintext
    DATABASE_URI="your_mongodb_connection_string_here"
