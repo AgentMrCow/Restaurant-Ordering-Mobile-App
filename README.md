@@ -7,32 +7,36 @@ Welcome to the IERG3842 Mobile App, a streamlined online ordering system designe
 Here are some screenshots that illustrate the features and user interface of the IERG3842 Mobile App:
 
 ### Home Screen
-![Home Screen](path/to/home_screen_screenshot.png)
+![Home Screen](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/home.png)
 
 This is the first screen users see when they open the app. It allows users to either log in to their existing account or register for a new account.
 
 ### Registration Screen
-![Registration Screen](path/to/registration_screen_screenshot.png)
+![Registration Screen](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/register.png)
 
 New users can create an account by providing their email, password, and date of birth.
 
-### Store Page
-![Store Page](path/to/store_page_screenshot.png)
+### Cache
+![Cache](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/cache.png)
+Once logged in, login tokens are saved in cache.
 
-Once logged in, login tokens are saved in cache. Users can browse the menu and select items to add to their cart.
+### Store Page
+![Store Page](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/store.png)
+
+Users can browse the menu and select items to add to their cart.
 
 ### Shopping Cart
-![Shopping Cart](path/to/shopping_cart_screenshot.png)
+![Shopping Cart](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/cart.png)
 
 Users can remove or view the items they have added to their cart and proceed to checkout.
 
 ### Successful Purchase
-![Successful Purchase](path/to/successful_purchase_screenshot.png)
+![Successful Purchase](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/purchase.png)
 
 After a successful transaction, users receive a confirmation of their purchase.
 
 ### Saving Order
-![Saving Order](path/to/order.png)
+![Saving Order](https://github.com/AgentMrCow/Restaurant-Ordering-Mobile-App/blob/main/Screenshots/db.png)
 
 The order is saved securely in MongoDB Atlas Database.
 
