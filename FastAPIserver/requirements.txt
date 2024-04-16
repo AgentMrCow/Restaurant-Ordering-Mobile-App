@@ -1,0 +1,8 @@
+fastapi==0.110.1
+fastjsonschema==2.19.1
+uvicorn==0.29.0
+pydantic==2.7.0
+pydantic_core==2.18.1
+pymongo==4.6.3
+python-dotenv==1.0.1
+python-jose==3.3.0
