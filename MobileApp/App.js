@@ -208,7 +208,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.storeTitle}>IERG3842 Mobile App</Text>
-      <Text style={styles.describe}>Chinese Restaurant Online Ordering System</Text>
+      <Text style={styles.describe}>Chinese Restaurant Online Ordering SYSTEM</Text>
       <Text style={styles.userInfo}>By Niu Ka Ngai</Text>
       <Text style={styles.userInfo}>Student ID: 1155174712</Text>
       <Image style={styles.image} source={require("./assets/food.png")} />
